@@ -1,5 +1,7 @@
 ## Adsana Cryptocurrency Progressive Web App (PWA) test
 
+The PWA gathers and displays crypotocurrency price information in real time.
+
 ![Adsana](Adsanapwa.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
