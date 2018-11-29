@@ -56,6 +56,11 @@ class Today extends PureComponent {
      }
 
      componentDidMount () {
+        if (!navigator.onLine) {
+            this.setState({ btcprice: localStorage.getItem('BTC') });
+            this.setState({ ethprice: localStorage.getItem('ETH') });
+            this.setState({ ltcprice: localStorage.getItem('LTC') });
+        }
         setInterval(() => {
             axios.get('https://min-api.cryptocompare.com/data/pricemulti?fsyms=BTC,ETH,LTC&tsyms=USD')
                 .then(response => {
@@ -67,8 +72,11 @@ class Today extends PureComponent {
         }, 10000)
         this.prices.bind('prices', price => {
             this.setState({ btcAmount: price.prices.BTC.USD });
+            localStorage.setItem('BTC', price.prices.BTC.USD);
             this.setState({ ethAmount: price.prices.ETH.USD });
+            localStorage.setItem('ETH', price.prices.ETH.USD);
             this.setState({ ltcAmount: price.prices.LTC.USD });
+            localStorage.setItem('LTC', price.prices.LTC.USD);
           }, this);
      }
 
