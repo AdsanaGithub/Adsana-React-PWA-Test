@@ -11,9 +11,9 @@ class App extends PureComponent {
     return (
       <div className="App">
         <div className="top-header">
-        <div className="top-header-name">Pusher Coins</div>
+        <div className="top-header-name">Adsana</div>
         <div className="top-header-link">
-          <a className="top-header-link-name" href="https://pusher.com" target="_blank" rel="noopener noreferrer">Pusher.com</a>
+          <a className="top-header-link-name" href="http://adsana.io/?reqp=1&reqr=" target="_blank" rel="noopener noreferrer">Adsana.io</a>
         </div>
         </div>
         <div className="page-content-container">
