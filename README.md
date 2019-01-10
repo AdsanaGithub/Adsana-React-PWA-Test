@@ -6,7 +6,7 @@ Read:  https://medium.com/@firt/progressive-web-apps-on-ios-are-here-d00430dee3a
 
 This Adsana Test PWA gathers and displays crypotocurrency price information in real time seemlessly.  
 
-We built the front end of a React based Cryptocurrency Progressive Web App front end to test the speed, ease of use, deployment and file size of a PWA. 
+We built the front end of a React based Cryptocurrency Progressive Web App to test the speed, ease of use, deployment and file size of a PWA. 
 
 What is React?  The leading JavaScript library for building responsive cross platfrom user interfaces
 https://reactjs.org/
