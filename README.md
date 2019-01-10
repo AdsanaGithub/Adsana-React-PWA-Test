@@ -2,9 +2,11 @@
 
 PWA´s are the future of front end mobile application development.  
 
-This PWA gathers and displays crypotocurrency price information in real time.  
+Read:  https://medium.com/@firt/progressive-web-apps-on-ios-are-here-d00430dee3a7
 
-We built the front end of a React based Cryptocurrency Progressive Web App front end to test the speed, ease of use, deployment and file size of a PWA.  
+This Adsana Test PWA gathers and displays crypotocurrency price information in real time seemlessly.  
+
+We built the front end of a React based Cryptocurrency Progressive Web App front end to test the speed, ease of use, deployment and file size of a PWA. 
 
 ![Adsana](Adsanapwa.png)
 
