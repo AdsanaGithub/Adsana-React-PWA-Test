@@ -8,6 +8,10 @@ This Adsana Test PWA gathers and displays crypotocurrency price information in r
 
 We built the front end of a React based Cryptocurrency Progressive Web App front end to test the speed, ease of use, deployment and file size of a PWA. 
 
+What is React?  The leading JavaScript library for building responsive cross platfrom user interfaces
+https://reactjs.org/
+
+
 ![Adsana](Adsanapwa.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
