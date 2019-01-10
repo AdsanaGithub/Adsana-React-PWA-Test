@@ -1,6 +1,10 @@
 ## Adsana Cryptocurrency Progressive Web App (PWA) test
 
-The PWA gathers and displays crypotocurrency price information in real time.
+PWA´s are the future of front end mobile application development.  
+
+This PWA gathers and displays crypotocurrency price information in real time.  
+
+We built the front end of a React based Cryptocurrency Progressive Web App front end to test the speed, ease of use, deployment and file size of a PWA.  
 
 ![Adsana](Adsanapwa.png)
 
